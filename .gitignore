@@ -1,0 +1,96 @@
+# ==========================
+# Node.js / JavaScript .gitignore
+# ==========================
+
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.*.local
+
+# Build output
+dist/
+build/
+out/
+coverage/
+.tmp/
+.cache/
+.next/
+.nuxt/
+.svelte-kit/
+vite-dist/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor & IDE files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Test & coverage output
+coverage/
+.nyc_output/
+jest-coverage/
+
+# Dependency directories
+jspm_packages/
+
+# TypeScript
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm/
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Optional lock files (if not using)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Misc
+*.tgz
+*.orig
+*.bak
+*.tmp
+
+# Local serverless & deploy artifacts
+.serverless/
+.vercel/
+.netlify/
+functions-build/
+
+# VSCode settings
+.history/
+.vscode-test/
